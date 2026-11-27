@@ -910,3 +910,47 @@ a {
     object-fit: contain;
     object-position: center;
 }
+/* Publications Page Sections */
+
+.publication-section {
+    margin-bottom: 64px;
+}
+
+.publication-section + .publication-section {
+    padding-top: 32px;
+    border-top: 1px solid var(--line);
+}
+
+.pub-authors {
+    line-height: 1.8;
+    color: var(--muted);
+}
+
+.pub-venue {
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.pub-details {
+    font-size: 0.9rem;
+    color: var(--muted);
+}
+
+.pub-doi {
+    font-size: 0.9rem;
+    margin-top: 8px;
+    word-break: break-word;
+}
+
+.pub-doi a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.pub-doi a:hover {
+    text-decoration: underline;
+}
+
+.publication h3 {
+    line-height: 1.6;
+}
