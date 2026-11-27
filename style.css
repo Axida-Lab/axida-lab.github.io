@@ -890,3 +890,14 @@ a {
     }
 
 }
+/* PI Photo - Display Full Image */
+
+.member-photo.pi-photo {
+    height: auto;
+    min-height: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f9fc;
+}
