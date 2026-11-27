@@ -901,3 +901,11 @@ a {
     justify-content: center;
     background: #f7f9fc;
 }
+.member-list-photo {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+    object-position: center;
+}
